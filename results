@@ -1,0 +1,18 @@
+java 9:
+# Run complete. Total time: 00:08:44
+
+Benchmark                                Mode  Cnt     Score    Error  Units
+MyBenchmark.testJava                    thrpt   50  1190,600 ? 13,474  ops/s
+MyBenchmark.testJavaAcumulator          thrpt   50   927,802 ? 16,054  ops/s
+MyBenchmark.testKotlin                  thrpt   50   714,852 ? 15,575  ops/s
+MyBenchmark.testKotlinStream            thrpt   50  1115,764 ? 19,426  ops/s
+MyBenchmark.testKotlinStreamAcumulator  thrpt   50   790,725 ? 14,708  ops/s
+
+java 8:
+
+Benchmark                                Mode  Cnt    Score    Error  Units
+MyBenchmark.testJava                    thrpt   50  912,676 ? 25,072  ops/s
+MyBenchmark.testJavaAcumulator          thrpt   50  967,552 ? 17,893  ops/s
+MyBenchmark.testKotlin                  thrpt   50  895,134 ? 14,241  ops/s
+MyBenchmark.testKotlinStream            thrpt   50  827,325 ? 20,205  ops/s
+MyBenchmark.testKotlinStreamAcumulator  thrpt   50  827,653 ? 17,006  ops/s
